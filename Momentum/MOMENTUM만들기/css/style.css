@@ -1,0 +1,32 @@
+
+.hidden{
+    display: none;
+}
+#todo-form input{
+    border: none;
+    background: none;
+    width: 200px;
+    justify-content: flex-end;
+}
+#todo-form input::placeholder{
+    color: black;
+    font-size: 15px;
+}
+button{
+    border: none;
+    background: none;
+}
+button:hover{
+    background-color: white;
+}
+body{
+    color: white;
+}
+.backgroundimg{
+    width: 100%;
+    height: auto;
+}
+#greeting{
+    text-align: center;
+    font-size: 50px;
+}
